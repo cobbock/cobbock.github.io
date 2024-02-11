@@ -485,22 +485,21 @@
 }
 .home-text08 {
   color: rgb(103, 116, 142);
-  max-width: 600px;
+  max-width: 50%;
   align-self: stretch;
   text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-halfunit);
+  margin: 0 auto;
   background-color: rgb(255, 255, 255);
 }
 .home-image1 {
-  width: 486px;
-  height: 1046px;
+  height: 2048px;
   align-self: flex-start;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
   object-fit: cover;
-  margin-left: 3rem;
-  margin-right: -3rem;
   border-radius: var(--dl-radius-radius-radius75);
+  margin: 5em auto;
 }
 .home-testimonials {
   flex: 1;
