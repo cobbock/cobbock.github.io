@@ -436,13 +436,13 @@
 .home-image {
   top: 0px;
   left: auto;
-  right: auto;
+  right: 0;
   width: 50%;
   bottom: 0px;
   height: 80vh;
   position: absolute;
   object-fit: cover;
-  object-position: center;
+  object-position: right;
   border-bottom-left-radius: 10rem;
 }
 .home-features {
@@ -462,7 +462,6 @@
   width: 100%;
   display: flex;
   position: relative;
-  max-width: 1320px;
   align-items: center;
   padding-top: var(--dl-space-space-sixunits);
   padding-left: var(--dl-space-space-tripleunit);
@@ -486,7 +485,7 @@
 }
 .home-text08 {
   color: rgb(103, 116, 142);
-  max-width: 80%;
+  max-width: 60%;
   align-self: stretch;
   text-align: center;
   font-weight: 400;
