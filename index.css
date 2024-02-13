@@ -436,7 +436,7 @@
 .home-image {
   top: 0px;
   left: auto;
-  right: 0px;
+  right: auto;
   width: 50%;
   bottom: 0px;
   height: 80vh;
@@ -495,6 +495,8 @@
 }
 .home-image1 {
   height: 2048px;
+  margin-left: auto;
+  margin-right: auto;
   align-self: flex-start;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
   object-fit: cover;
