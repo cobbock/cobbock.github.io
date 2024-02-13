@@ -442,7 +442,7 @@
   height: 80vh;
   position: absolute;
   object-fit: cover;
-  object-position: right;
+  object-position: center;
   border-bottom-left-radius: 10rem;
 }
 .home-features {
